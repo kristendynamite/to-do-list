@@ -1,3 +1,25 @@
 /*#hidden-list {
   display: none;
 }*/
+
+.jumbotron {
+  background-image: url(../img/seashells.jpg);
+  background-size: contain;
+  color: black;
+  font-family: 'Rock Salt', fantasy;
+  text-align: center;
+}
+
+body {
+  font-family: 'Permanent Marker', fantasy;
+  background-image: url(../img/water2.jpg);
+  background-repeat: repeat;
+}
+
+.container {
+  background-color: #a8bdd3;
+}
+
+.form-group {
+  font-size: 30px;
+}
