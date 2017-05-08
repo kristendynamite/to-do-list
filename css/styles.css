@@ -1,10 +1,9 @@
 .jumbotron {
-  background-image: url(../img/seashells.jpg);
-  background-size: contain;
-  color: black;
+  color: #BB1CA0;
   font-family: 'Permanent Marker', fantasy;
   text-align: center;
   margin-top: 10px;
+  background-color: #D3FCFC;
 }
 
 .Tasks {
@@ -16,10 +15,11 @@ body {
   font-family: 'Permanent Marker', fantasy;
   background-image: url(../img/water2.jpg);
   background-repeat: repeat;
+  color: #BB1CA0;
 }
 
 .container {
-  background-color: #a8bdd3;
+  background-color: #D3FCFC;
 }
 
 .form-group {
@@ -28,4 +28,8 @@ body {
 
 #hidden-list {
   font-size: 20px;
+}
+
+ul {
+    list-style-image: url('../img/narwhal3.png');
 }
