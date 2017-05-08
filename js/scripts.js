@@ -14,9 +14,10 @@ $(function() {
 
     $("ul#hidden-list").append("<li><span class='Tasks'>" + newTasks.toDo + "</span></li>");
 
-    $(".Tasks").last().click(function() {
-      $("#hidden-list").show();
-      $(".toDo").text(newTasks.toDo);
+
+    $("ul#hidden-list").on("click", "li", function() {
+      $(this).show();
+      $(this).hide();
     });
 
     $("input#new-to-do").val("");

@@ -22,6 +22,10 @@ This web application makes a to do list for you, based on tasks you add. You can
   Input Example: Walk the dog
   Output Example: <s>Walk the dog</s>
 
+  * When a user strikes off an item, the items is deleted from the list.
+    Input Example: Walk the dog
+    Output Example:
+
 
 ## Technologies Used
 * HTML
